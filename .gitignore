@@ -1,0 +1,36 @@
+# Arquivos compilados Java
+*.class
+
+# Pastas de compilação
+bin/
+build/
+out/
+target/
+
+# Configurações das IDEs
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+
+# Tomcat temporário
+apache-tomcat/temp/
+apache-tomcat/work/
+apache-tomcat/logs/
+
+
+# Arquivos gerados pelo Tomcat
+WEB-INF/classes/
+
+
+# Arquivos temporários
+*.tmp
+*.bak

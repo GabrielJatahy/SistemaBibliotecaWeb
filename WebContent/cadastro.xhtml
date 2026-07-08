@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+<h:head>
+    <title>Cadastro JSF</title>
+</h:head>
+
+
+<h:body>
+
+    <h2>Cadastro de Livro - JSF</h2>
+
+
+    <h:form>
+
+        Título:
+        <h:inputText value="#{cadastroJSF.titulo}" />
+        <br/><br/>
+
+
+        Autor:
+        <h:inputText value="#{cadastroJSF.autor}" />
+        <br/><br/>
+
+
+        Ano:
+        <h:inputText value="#{cadastroJSF.ano}" />
+        <br/><br/>
+
+
+        ISBN:
+        <h:inputText value="#{cadastroJSF.isbn}" />
+        <br/><br/>
+
+
+        <h:commandButton 
+            value="Salvar"
+            action="#{cadastroJSF.salvar}" />
+
+    </h:form>
+
+
+</h:body>
+
+</html>
